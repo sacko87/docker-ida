@@ -27,7 +27,7 @@ vboxnet0: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
 ```
 
 ```bash
-docker run --rm -it -e DISPLAY=192.168.99.1 sacko87/docker-ida 
+docker run --rm -it -e DISPLAY=192.168.99.1:0 sacko87/docker-ida 
 ```
 
 ### Windows
