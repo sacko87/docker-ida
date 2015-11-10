@@ -10,6 +10,7 @@ docker build -t sacko87/docker-ida git@github.com:sacko87/docker-ida.git
 ```
 
 ## Run
+### Linux
 ```bash
 docker run --rm -it -e DISPLAY=${DISPLAY} -v /tmp/.X11-unix:/tmp/.X11-unix sacko87/docker-ida 
 ```
